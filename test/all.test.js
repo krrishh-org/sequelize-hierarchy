@@ -15,7 +15,7 @@ const chai = require('chai'),
 	Support = require('./support'),
 	{Sequelize} = Support;
 
-// eslint-disable-next-line global-require, import/order
+// eslint-disable-next-line global-require
 const sequelizeVersion = Sequelize.version || require('sequelize/package.json').version;
 
 // Init
